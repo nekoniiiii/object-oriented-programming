@@ -7,10 +7,10 @@ public class Invoice {
 	private double price;
 	
 	public Invoice(String num, String desc, int quantity, double price) {
-    setNum(num);
-    setDesc(desc);
-    setQuantity(quantity);
-    setPrice(price);
+    	setNum(num);
+    	setDesc(desc);
+    	setQuantity(quantity);
+    	setPrice(price);
 	}
 	
 	public String getNum() {
